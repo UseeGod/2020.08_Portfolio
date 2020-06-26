@@ -211,14 +211,14 @@
       <h1>My Work</h1>
       <h3>Projects</h3>
       <div class="work__categories">
-        <button class="category__btn active">All <span class="category__count">4</span></button>
-        <button class="category__btn">Development <span class="category__count">2</span></button>
-        <button class="category__btn">BugBounty <span class="category__count">1</span></button>
-        <button class="category__btn">Hacking <span class="category__count">1</span></button>
+        <button class="category__btn active" data-filter ="*">All <span class="category__count">4</span></button>
+        <button class="category__btn" data-filter ="Development">Development <span class="category__count">2</span></button>
+        <button class="category__btn" data-filter ="BugBounty">BugBounty <span class="category__count">1</span></button>
+        <button class="category__btn" data-filter ="Hacking">Hacking <span class="category__count">1</span></button>
       </div>
 
       <div class="work__projects">
-        <a href="https://www.notion.so/Super-Pang-44346201d0894a859014e698341f115a" class="project" target="_blank">
+        <a href="https://www.notion.so/Super-Pang-44346201d0894a859014e698341f115a" class="project" target="_blank" data-type="Development">
           <img src="imgs/prjoect/super.png" alt="Game">
           <div class="project__description">
             <h3>Super Pang</h3>
@@ -226,7 +226,7 @@
           </div>
           </a>
 
-          <a href="https://www.notion.so/7fe3ebe66e41462c956911b218788086" class="project" target="_blank">
+          <a href="https://www.notion.so/7fe3ebe66e41462c956911b218788086" class="project" target="_blank" data-type="BugBounty">
             <img src="imgs/prjoect/bug.png" alt="Game">
             <div class="project__description">
               <h3>Bug Bounty</h3>
@@ -234,14 +234,14 @@
             </div>
             </a>
 
-            <a href="https://www.notion.so/8e0cb16967bf4e6fb86eb6cb0c3deefc" class="project" target="_blank">
+            <a href="https://www.notion.so/8e0cb16967bf4e6fb86eb6cb0c3deefc" class="project" target="_blank" data-type="Hacking">
               <img src="imgs/prjoect/report.png" alt="Game">
               <div class="project__description">
                 <h3>Report</h3>
                 <span>Penetration Test Report</span>
               </div>
               </a>
-             <a href="https://www.notion.so/a0c0b0cc3e604d03a9c4eab5c49a006d" class="project" target="_blank">
+             <a href="https://www.notion.so/a0c0b0cc3e604d03a9c4eab5c49a006d" class="project" target="_blank" data-type="Development">
                <img src="imgs/prjoect/mobile.png" alt="mobile">
                <div class="project__description">
                  <h3>야밤의 뚜벅이</h3>
@@ -265,5 +265,6 @@
       </div>
       <p class="contact__rights">2020 TalkativeJin - All rights reserved</p>
     </section>
+
   </body>
 </html>
