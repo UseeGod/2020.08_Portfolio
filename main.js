@@ -44,16 +44,6 @@ document.addEventListener("scroll", () => {
   home.style.opacity = 1 - window.scrollY / homeHeight;
 });
 
-// show "arrow up" button when scrolling down
-const arrowUP = document.querySelector(".arrow-up");
-document.addEventListener("scroll", () => {
-  if (window.scrollY > homeHeight / 2) {
-    arrowUP.classList.add("visible");
-  } else {
-    arrowUP.classList.remove("visible");
-  }
-});
-
 // Projects
 const workBtnContainer = document.querySelector(".work__categories");
 const projectContainer = document.querySelector(".work__projects");
